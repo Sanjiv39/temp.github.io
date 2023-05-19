@@ -1,0 +1,18 @@
+{        position : static //default}
+flows with the page
+
+{        position : relative}
+flows with the page, but can be positioned using top, bottom, left and right relative to the html page. 
+other elements won't be fitting for its gap.
+
+{        position : absolute}
+flows relative to the nearest ancestor having position other then static. if all are static it uses the 
+document as relative to. gap is filled by other elements.
+
+{        position : fixed}
+flows relative to the viewport and is fixed there. it doesn't moves even if page is scrolled. does not leaves
+gap to its normal position.
+
+{        position : sticky}
+flows relative to scroll position. it acts as relative until the positional parameters are met then becomes 
+fixed. here too the gap is not filled by others
